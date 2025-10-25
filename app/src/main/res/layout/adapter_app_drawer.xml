@@ -98,7 +98,8 @@
             android:paddingHorizontal="8dp"
             android:text="@string/info"
             android:textSize="12sp"
-            app:drawableTopCompat="@drawable/ic_info" />
+            app:drawableTopCompat="@drawable/ic_info"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/appMenuClose"
